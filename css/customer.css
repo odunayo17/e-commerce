@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    html,
+    body {
+    background-color: #f5f5f5;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    }
+
+    /*------------HEADINGS----------------*/
+
+    h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top:100px;
+    }
+
+    h2 {
+    font-size: 180%;
+    white-space: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2::after {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    }
+
+    /*------------customer care----------------*/
+   
+    body{
+        background-image: url(img/pexels-pixabay-36753.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+        color: #fff;
+    }
+
+    .contact_details{
+        margin-top: 50px;
+        text-align: center;
+        display: block;
+    }
+
+   .contact_details li{
+        margin-top: 20px;
+    }
+
+    .ion-email,
+    .ion-location,
+    .ion-ios-telephone{
+        font-size: 350%;
+        display: block;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .list_bg{
+        background-color: #67349c;
+        height: 200px;
+        width: 350px;
+        border-radius: 10px;
+        text-align:center;
+        display: inline-block;
+        margin-top: 70px;
+        padding-top: 10px;
+        margin: 10px;
+        box-shadow: 0px 0 5px 5px rgba(0, 0, 0, 0.6);
+    }
+
+   .email{
+        background-color: #67349c;
+        height: 200px;
+        width: 200px;
+        text-align:center;
+    }
+   .location{
+        background-color: #67349c;
+        height: 200px;
+        width: 200px;
+        text-align:center;
+    }
+
+    p{
+        text-align: center;
+        display: block;
+        font-size: 30px;
+    }
+
+    a{
+        color: #f5f5f5;
+        text-decoration: none;
+    }
+    
+    li{
+        list-style: none;
+    }
+
+    a:hover{
+        color: black;
+    }
+    
+  
+
+    /*-----media queries-----*/
+    @media only screen and (max-width: 1023px) {
+        .list_bg{
+            background-color: #67349c;
+            height: 200px;
+            width: 250px;
+            border-radius: 10px;
+            text-align:center;
+            display: inline-block;
+            margin-top: 50px;
+        }
+       p{
+        text-align: center;
+        display: block;
+        font-size: 20px;
+       }
+       .contact_details{
+        margin-bottom: 100px;
+      }
+    }
